@@ -46,6 +46,9 @@ body{
     margin-right: 10px;
     gap: 15px;
 }
+#nav__nav1-div2-span:hover{
+    color: black;
+}
 
 /* --------          ------------- */
 #nav__nav2-div1{
@@ -53,6 +56,8 @@ body{
     height: 100%;
     width: 6%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #nav__nav2-div1-img{
     width: 50px;
@@ -107,12 +112,18 @@ body{
     color: rgb(255, 255, 255);
 }
 
+#nav__nav1-div2-span i:hover{
+    color: black;
+    cursor: pointer;
+}
+
 
 /* -------- CUERPO          ------------- */
 
 #cuerpo{
     width: 100%;
     height: 100vh;
+    display: flex;
 }
 
 #contactos{
@@ -121,12 +132,19 @@ body{
     background-color: red;
 }
 
+#contactos__div1-div1-div1-span:hover{
+    color: white;
+    cursor: pointer;
+}
+
 #contactos__div1{
     height: 10%;
     width: 100%;
-    background-color: rgb(251, 59, 59);
+    background-color: rgb(216, 62, 62);
     display: flex;
     align-items: center;
+    border: solid 2px black;
+    box-sizing: border-box;
 }
 #contactos__div1-div1{
     background-color: rgb(240, 171, 171);
@@ -165,31 +183,42 @@ body{
     align-items: center;
 }
 #contactos__div1-div2-span{
-    color: rgb(127, 128, 129);
+    color: rgb(61, 62, 62);
     font-size: 20px;
 }
-
+#contactos__div1-div2-span:hover{
+    color:white;
+    cursor: pointer;
+}
 
 #contactos__div2{
     height: 10%;
     width: 100%;
     display: flex;
+    border-left: solid black 2px;
+    border-right: solid black 3px;
+    box-sizing: border-box;
 }
 #contactos__div2-div1{
-    background-color: rgb(251, 59, 59);
+    background-color: rgb(216, 62, 62);
     height: 100%;
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgb(127, 128, 129);
+    color:rgb(93, 93, 93);
     font-size: 30px;
 }
+#contactos__div2-div1:hover, #contactos__div2-div2:hover{
+    color: black;
+    cursor: pointer;
+}
 #contactos__div2-div2{
-    background-color: rgb(251, 59, 59);
+    background-color: rgb(216, 62, 62);
     height: 100%;
     width: 80%;
     display: flex;
+    color: white;
     justify-content: start;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -197,18 +226,24 @@ body{
 }
 
 
-
 /* --  div contactos  -- */
 #contactos__div3{
     height: 80%;
     width: 100%;
     background-color: bisque;
+    box-sizing: border-box;
+    border: solid black 1px;    
+    
 }
 /* --  div 1  -- */
 #contactos__div3-div1{
     display: flex;
-    background-color: rgb(245, 168, 168);
+    background-color: rgb(220, 119, 119);
     height: 8vh;
+    box-sizing: border-box;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
 }
 /* --  div imagen  -- */
 #contactos__div3-div1-div1{
@@ -219,13 +254,12 @@ body{
     align-items: center;
 }
 #contactos__div3-div1-div1 img{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 50px;
     border-radius: 100%;
 }
 /* --  div cuerpo  -- */
 #contactos__div3-div1-div2{
-    background-color: red;
     width: 100%;
     height: 100%;
 }
@@ -234,20 +268,215 @@ body{
     width: 100%;
     height: 50%;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #contactos__div3-div1-div2-div2{
-    background-color:rgb(114, 99, 81);
+    background-color:rgb(220, 119, 119);
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #contactos__div3-div1-div2-div2 span i{
     color: aqua;
 }
 /* --  div hora  -- */
 #contactos__div3-div1-div3{
-    background-color:azure;
+    background-color:rgb(220, 119, 119);
     width: 20vh;
+    height: 7vh;
+}
+#contactos__div3-div1-div3-div1{
+    background-color: rgb(220, 119, 119);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolds;
+}
+#contactos__div3-div1-div3-div2{
+    background-color: rgb(220, 119, 119);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactos__div3-div1-div3-div2:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* ----  CHAT----------------------------------------------- */
+/* ----  CHAT----------------------------------------------- */
+#chat{
+    height: 100%;
+    width: 100%;
+}
+
+#chat__cuerpo{
+    width: 100%;
+    height: 90%;
+    display: block;
+    background-image: url("https://i.pinimg.com/originals/c1/71/32/c1713207c767b80b9537df51dab7b772.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;   
+}
+
+.chat__divisiones{
+    width: 100%;
+    height: 7vh;
+    display: block;
+
+}
+
+#chat__cuerpo-division2{
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#chat__cuerpo1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+}
+
+
+/* ----  CHAT ------*/
+#chat__cuerpo1-div1{
+    background-color: aliceblue;
+    width: 100%;
+    height: 6vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#chat__cuerpo1-div1-div1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#chat__cuerpo1-div1-div1 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#chat__cuerpo1-div1-div2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#chat__cuerpo1-div1-div3{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+/* **** CHAT ------*/
+
+
+/* ---- CHAT  2 ------*/
+#chat__cuerpo2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+#chat__cuerpo2-div1{
+    background-color: aliceblue;
+    width: 100%;
+    height: 6vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/****** CHAT  2 ------*/
+#chat__cuerpo2-div1{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#chat__cuerpo2-div1-div2{
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+/* ----  TECLADO ----------------------------------------------- */
+/* ----  TECLADO ----------------------------------------------- */
+#chat__teclado{
+    background-color: bisque;
+    width: 100%;
+    height: 10%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+}
+
+#chat__teclado-div1{
+    width: 20%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#chat__teclado-div1 span:hover {
+    color: white;
+    cursor: pointer;
+}
+#chat__teclado-div2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chat__teclado-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#chat__teclado-div3:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#chat-escribir{
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 30px;
+}
+#chat-escribir:focus{
+    outline: none;
+}
+#chat-escribir:active{
+    outline: none;
+}
+#chat__teclado-div3{
+    width: 10%;
     height: 100%;
 }
