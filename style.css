@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+#nav__nav1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+#nav__nav2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+
+#nav__nav1-div1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(201, 83, 83);;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#nav__nav1-div1-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#nav__nav1-div2{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(201, 83, 83);;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#nav__nav1-div2-span{
+    display: flex;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+/* --------          ------------- */
+#nav__nav2-div1{
+    background-color: rgb(206, 132, 132);
+    height: 100%;
+    width: 6%;
+    display: flex;
+}
+#nav__nav2-div1-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;   
+}
+
+#nav__nav2-div2{
+    background-color: aqua;
+    height: 100%;
+    width: 75%;
+}
+#nav__nav2-div2-div1{
+    background-color: rgb(206, 132, 132);
+    height: 50%;
+    width: 100%;;
+    display: flex;
+    align-items: center;
+}
+#nav__nav2-div2-div2{
+    background-color: rgb(206, 132, 132);
+    height: 50%;
+    width: 100%;;
+    display: flex;
+    align-items: center;
+}
+#nav__nav2-div2-div1 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav__nav2-div2-div2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(76, 77, 77);
+}
+
+/* --------          ------------- */
+
+#nav__nav2-div3{
+    background-color: rgb(206, 132, 132);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#nav__nav1-div2-span{
+    margin-right: 20px;
+    display: flex;
+    gap: 6vh;
+}
+#nav__nav1-div2-span i{
+    color: rgb(255, 255, 255);
+}
+
+
+/* -------- CUERPO          ------------- */
+
+#cuerpo{
+    width: 100%;
+    height: 100vh;
+}
+
+#contactos{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+#contactos__div1{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(251, 59, 59);
+    display: flex;
+    align-items: center;
+}
+#contactos__div1-div1{
+    background-color: rgb(240, 171, 171);
+    height: 65%;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+}
+
+#contactos__div1-div1-div1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 98, 99);
+}
+#contactos__div1-div1-div2{
+    height: 100%;
+    width: 80%;
+}
+
+#contactos__div1-div1-div2{
+    color: rgb(97, 98, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactos__div1-div2{    
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactos__div1-div2-span{
+    color: rgb(127, 128, 129);
+    font-size: 20px;
+}
+
+
+#contactos__div2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+#contactos__div2-div1{
+    background-color: rgb(251, 59, 59);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(127, 128, 129);
+    font-size: 30px;
+}
+#contactos__div2-div2{
+    background-color: rgb(251, 59, 59);
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* --  div contactos  -- */
+#contactos__div3{
+    height: 80%;
+    width: 100%;
+    background-color: bisque;
+}
+/* --  div 1  -- */
+#contactos__div3-div1{
+    display: flex;
+    background-color: rgb(245, 168, 168);
+    height: 8vh;
+}
+/* --  div imagen  -- */
+#contactos__div3-div1-div1{
+    width: 8vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactos__div3-div1-div1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+/* --  div cuerpo  -- */
+#contactos__div3-div1-div2{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+#contactos__div3-div1-div2-div1{
+    background-color: rgb(220, 119, 119);
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#contactos__div3-div1-div2-div2{
+    background-color:rgb(114, 99, 81);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+#contactos__div3-div1-div2-div2 span i{
+    color: aqua;
+}
+/* --  div hora  -- */
+#contactos__div3-div1-div3{
+    background-color:azure;
+    width: 20vh;
+    height: 100%;
+}
